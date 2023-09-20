@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Judul Website -->
+    <title>Daud Dhiya's CV</title>
+
+    <!-- Import Font Barlow -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <!-- Style Tag -->
+  <style>
+    body {
+      font-family: "Barlow", sans-serif;
+      margin: 80px 0;
+    }
+
+    .layout {
+      max-width: 80rem;
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .space {
+      margin: 60px 0;
+    }
+
+    .name {
+      color: #ff3e3e;
+    }
+
+    .header {
+      color: #ff5757;
+    }
+
+    .item {
+      color: #ffa3a3;
+    }
+
+    li {
+      line-height: 1.5rem;
+    }
+
+    .section {
+      border-left: 1px solid #ffa3a3;
+      padding-left: 1.5rem;
+    }
+
+    .profile {
+      border-radius: 50%;
+      border: 3px solid #ffa3a3;
+      padding: 0.5rem;
+      width: 130px;
+      height: 130px;
+      margin-right: 2rem;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    td {
+      border-left: 1px solid black;
+      padding: 0 1rem;
+    }
+  </style>
+  <body>
+    <!-- Class Layout: agar website tetap kelihatan bagus meskipun dilihat pada monitor wide-screen -->
+    <div class="layout">
+      <!-- Profile Picture -->
+      <div class="profile-border" style="display: inline-block">
+        <img
+          class="profile"
+          src="daud.png"
+          alt="Daud's profile picture"
+          width="185"
+          height="185"
+        />
+      </div>
+
+      <!-- Informasi Pribadi -->
+      <div style="display: inline-block">
+        <table>
+          <tr>
+            <h1 class="name">Daud Dhiya'</h1>
+          </tr>
+          <tr>
+            <p>Email: daud.dhiya31@gmail.com</p>
+          </tr>
+          <tr>
+            <p>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/daudhiyaa/">
+                linkedin.com/in/daudhiyaa
+              </a>
+            </p>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Garis + Spasi -->
+      <hr class="space" />
+
+      <!-- Pendidikan -->
+      <h2 class="header">Education</h2>
+      <table style="margin-top: -1rem">
+        <tr>
+          <th>
+            <p>Sepuluh Nopember Institute of Technology</p>
+          </th>
+        </tr>
+        <tr>
+          <td>Bachelor's Degree in Computer Science</td>
+          <td>August 2025</td>
+        </tr>
+      </table>
+
+      <hr class="space" />
+
+      <!-- Hard skill yang saya miliki -->
+      <h2 class="header">Skills</h2>
+      <ul>
+        <li>Programming Languages: Python, JavaScript, HTML5, CSS3, SQL</li>
+        <li>
+          Technologies: ReactJS, React Query, Material UI, TailwindCSS, NextJS,
+          Git, MySQL, OpenCV, Numpy
+        </li>
+        <li>Other Skills: Web Development, Mobile App Development</li>
+      </ul>
+
+      <hr class="space" />
+
+      <!-- Pengalaman berorganisasi dan bekerja -->
+      <h2 class="header">Experience</h2>
+      <div class="section">
+        <h3 class="item">ITS Team Sapuangin</h3>
+        <p><i>Electrical & Programming Staff</i></p>
+        <p>Jan 2023 - Present</p>
+        <ul>
+          <li>Working as an electrical engineer of the car</li>
+          <li>
+            Develop a new various controller as microcontroller & apps
+            programmer
+          </li>
+        </ul>
+
+        <h3 class="item">Biological Opus Fair XVI</h3>
+        <p><i>Senior Frontend Developer</i></p>
+        <p>July 2023 - Present</p>
+        <ul>
+          <li>
+            Develop landing page, user & admin dashboard using Next.js, Tailwind
+            CSS & Typescript
+          </li>
+          <li>Fetching data from API using Axios</li>
+        </ul>
+
+        <h3 class="item">TEDx ITS 2023</h3>
+        <p><i>Frontend Developer</i></p>
+        <p>Feb 2023 - July 2023</p>
+        <ul>
+          <li>
+            Developing various sections in landing page & admin dashboard using
+            Next.js, Tailwind CSS & Typescript
+          </li>
+        </ul>
+      </div>
+
+      <hr class="space" />
+
+      <!-- Projek Pribadi -->
+      <h2 class="header">Personal Projects</h2>
+      <div class="section">
+        <div>
+          <h3 class="item"><strong>Rajoongan | Flutter App</strong><br /></h3>
+          <p>Used Flutter & Firebase to create powerful Mobile App</p>
+          <h3 class="item">
+            <strong>Portfolio Web | My Portfolio Website</strong><br />
+          </h3>
+          <p>Used Vanilla JS & SCSS to create a front-end website.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
